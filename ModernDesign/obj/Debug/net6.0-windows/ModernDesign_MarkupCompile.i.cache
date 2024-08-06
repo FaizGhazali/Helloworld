@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\App.xaml
-3584641632
+4667536960
 
-7-2080295053
+9-520961686
 194-1103864946
-MainWindow.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
+MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
 True
 

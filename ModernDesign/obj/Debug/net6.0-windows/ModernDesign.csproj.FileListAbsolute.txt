@@ -21,3 +21,4 @@ C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Debug\
 C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Debug\net6.0-windows\ModernDesign.pdb
 C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Debug\net6.0-windows\ModernDesign.genruntimeconfig.cache
 C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Debug\net6.0-windows\ref\ModernDesign.dll
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml

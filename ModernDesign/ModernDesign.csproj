@@ -8,11 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="MVVM\ViewModel\" />
-    <Folder Include="MVVM\View\" />
+    <None Remove="Images\man.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="MVVM\Model\" />
-    <Folder Include="Images\" />
     <Folder Include="Fonts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\man.PNG" />
   </ItemGroup>
 
 </Project>
