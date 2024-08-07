@@ -25,3 +25,7 @@ C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Releas
 C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Release\net6.0-windows\ModernDesign.pdb
 C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Release\net6.0-windows\ModernDesign.genruntimeconfig.cache
 C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Release\net6.0-windows\ref\ModernDesign.dll
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Release\net6.0-windows\MVVM\View\DiscoveryView.g.cs
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Release\net6.0-windows\MVVM\View\DiscoveryView.baml
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Release\net6.0-windows\MVVM\View\RadioButtonView.g.cs
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ModernDesign\obj\Release\net6.0-windows\MVVM\View\RadioButtonView.baml

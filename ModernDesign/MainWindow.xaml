@@ -11,6 +11,9 @@
         ResizeMode="NoResize"
         Background="Transparent"
         AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen"
+        MouseDown="Window_MouseDown"
+        
         
         >
 
@@ -39,6 +42,7 @@
                    Foreground="White"
                    FontSize="22"
                    Margin="20,0,0,0"
+                   FontFamily="/Fonts/#Poppins"
                    />
             <StackPanel Grid.Row="1">
 
@@ -47,6 +51,8 @@
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}" Checked="RadioButton_Checked"
+                             IsChecked="True"
+                             Command="{Binding HomeViewCommand}"
                              />
 
                 <RadioButton Content="Discovery"
@@ -54,6 +60,8 @@
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding DiscoveryViewCommand}"
+                             FontFamily="/Fonts/#Poppins"
                              />
                 <RadioButton Content="Featured"
                              Height="50"
@@ -75,6 +83,7 @@
                             Grid.Column="1" 
                             Margin="10"
                             Content="{Binding CurrentView }"
+                            
                             />
         </Grid>
         

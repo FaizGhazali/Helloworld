@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace ModernDesign
 {
     /// <summary>
@@ -23,6 +24,15 @@ namespace ModernDesign
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void Window_MouseDown(Object sender, MouseButtonEventArgs e)
+        {
+            if(e.ChangedButton == MouseButton.Left)
+            {
+                this.DragMove();
+            }
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
