@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|e:\\coding\\c#\\helloworld\\moderndesign\\moderndesign.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|solutionrelative:moderndesign.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|e:\\coding\\c#\\helloworld\\moderndesign\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|solutionrelative:mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,32 +38,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\MainViewModel.cs",
               "ToolTip": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "MVVM\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T12:29:20.227Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModernDesign",
-              "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\ModernDesign.csproj",
-              "RelativeDocumentMoniker": "ModernDesign.csproj",
-              "ToolTip": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\ModernDesign.csproj",
-              "RelativeToolTip": "ModernDesign.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-07T13:07:04.076Z",
               "EditorCaption": ""
             },
             {
@@ -92,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "PracticeRadioViewModel.cs",
               "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\PracticeRadioViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\PracticeRadioViewModel.cs",
@@ -104,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "DiscoveryViewModel.cs",
               "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\DiscoveryViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\DiscoveryViewModel.cs",
@@ -116,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "HomeViewModel.cs",
               "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\HomeViewModel.cs",
@@ -128,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "App.xaml",
               "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -140,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -151,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "RadioButtonView.xaml",
               "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\View\\RadioButtonView.xaml",
               "RelativeDocumentMoniker": "MVVM\\View\\RadioButtonView.xaml",
