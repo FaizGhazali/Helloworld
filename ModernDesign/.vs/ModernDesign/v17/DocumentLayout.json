@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|e:\\coding\\c#\\helloworld\\moderndesign\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|e:\\coding\\c#\\helloworld\\moderndesign\\mvvm\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|solutionrelative:mvvm\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|e:\\coding\\c#\\helloworld\\moderndesign\\mvvm\\viewmodel\\discoveryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|solutionrelative:mvvm\\viewmodel\\discoveryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|e:\\coding\\c#\\helloworld\\moderndesign\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|solutionrelative:mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|e:\\coding\\c#\\helloworld\\moderndesign\\mvvm\\viewmodel\\practiceradioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|solutionrelative:mvvm\\viewmodel\\practiceradioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|e:\\coding\\c#\\helloworld\\moderndesign\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|e:\\coding\\c#\\helloworld\\moderndesign\\mvvm\\view\\radiobuttonview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FB9C575D-15D3-47C1-B368-29E22A167E5F}|ModernDesign.csproj|solutionrelative:mvvm\\view\\radiobuttonview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "MVVM\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "MVVM\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:29:20.227Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PracticeRadioViewModel.cs",
+              "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\PracticeRadioViewModel.cs",
+              "RelativeDocumentMoniker": "MVVM\\ViewModel\\PracticeRadioViewModel.cs",
+              "ToolTip": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\PracticeRadioViewModel.cs",
+              "RelativeToolTip": "MVVM\\ViewModel\\PracticeRadioViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:32:09.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiscoveryViewModel.cs",
+              "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\DiscoveryViewModel.cs",
+              "RelativeDocumentMoniker": "MVVM\\ViewModel\\DiscoveryViewModel.cs",
+              "ToolTip": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\DiscoveryViewModel.cs",
+              "RelativeToolTip": "MVVM\\ViewModel\\DiscoveryViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:31:33.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "MVVM\\ViewModel\\HomeViewModel.cs",
+              "ToolTip": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\ViewModel\\HomeViewModel.cs",
+              "RelativeToolTip": "MVVM\\ViewModel\\HomeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:31:30.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-07T12:29:56.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-07T12:28:50.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RadioButtonView.xaml",
+              "DocumentMoniker": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\View\\RadioButtonView.xaml",
+              "RelativeDocumentMoniker": "MVVM\\View\\RadioButtonView.xaml",
+              "ToolTip": "E:\\Coding\\C#\\Helloworld\\ModernDesign\\MVVM\\View\\RadioButtonView.xaml",
+              "RelativeToolTip": "MVVM\\View\\RadioButtonView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-07T12:22:51.915Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
