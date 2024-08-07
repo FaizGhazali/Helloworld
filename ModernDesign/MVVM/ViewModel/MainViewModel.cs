@@ -15,8 +15,10 @@ namespace ModernDesign.MVVM.ViewModel
         public HomeViewModel HomeVm { get; set; }
 
         public DiscoveryViewModel DiscoveryVM { get; set; }
+        public PracticeRadioViewModel PracticeRVM { get; set; }
 
         private object _currentView;
+        private object _currentRadioView;
 
         public object CurrentView
         {
@@ -26,13 +28,24 @@ namespace ModernDesign.MVVM.ViewModel
             }
         }
 
+        public object CurrentRadioView 
+        {
+            get { return _currentRadioView; }
+            set { _currentRadioView = value;
+                OnPropertyChanged();
+            }
+        }
+
 
         public MainViewModel()
         {
             HomeVm = new HomeViewModel();
             DiscoveryVM = new DiscoveryViewModel();
+            PracticeRVM = new PracticeRadioViewModel();
+
 
             CurrentView = HomeVm;
+            CurrentRadioView = PracticeRVM;
             
             HomeViewCommand = new RelayCommand(o =>
             {
