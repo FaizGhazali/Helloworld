@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModernDesign.MVVM.ViewModel
+namespace ModernDesign.Core
 {
-    public class DiscoveryViewModel
+    public class ChangeViewMessage
     {
+        public object ViewModel { get; set; }
     }
+
 }

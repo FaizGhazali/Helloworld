@@ -8,7 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="200">
     <UserControl.DataContext>
-        <viewModel:MainViewModel/>
+        <viewModel:PracticeRadioViewModel/>
     </UserControl.DataContext>
     <StackPanel>
         <RadioButton Content="Home"
@@ -17,7 +17,7 @@
              FontSize="14"
              Style="{StaticResource MenuButtonTheme}" Checked="RadioButton_Checked"
              IsChecked="True"
-             Command="{Binding HomeViewCommand}"
+             Command="{Binding ChangeViewCommand}"
              />
 
         <RadioButton Content="Discovery"

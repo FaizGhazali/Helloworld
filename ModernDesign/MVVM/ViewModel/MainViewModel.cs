@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,7 +57,19 @@ namespace ModernDesign.MVVM.ViewModel
             {
                 CurrentView = DiscoveryVM;
             });
-            
+            Messenger.Instance.Register<ChangeViewMessage>(OnChangeViewMessage);
+
+        }
+        private void OnChangeViewMessage(ChangeViewMessage message)
+        {
+            CurrentView = message.ViewModel;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
