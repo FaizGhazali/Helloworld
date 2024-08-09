@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\bin\Debug\net6.0\ThreadingLearning.exe
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\bin\Debug\net6.0\ThreadingLearning.deps.json
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\bin\Debug\net6.0\ThreadingLearning.runtimeconfig.json
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\bin\Debug\net6.0\ThreadingLearning.dll
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\bin\Debug\net6.0\ThreadingLearning.pdb
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\ThreadingLearning.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\ThreadingLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\ThreadingLearning.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\ThreadingLearning.AssemblyInfo.cs
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\ThreadingLearning.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\ThreadingLearning.dll
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\refint\ThreadingLearning.dll
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\ThreadingLearning.pdb
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\ThreadingLearning.genruntimeconfig.cache
+C:\Users\User\Documents\Faiz\C#\HelloWorldApp\Helloworld\ThreadingLearning\obj\Debug\net6.0\ref\ThreadingLearning.dll
