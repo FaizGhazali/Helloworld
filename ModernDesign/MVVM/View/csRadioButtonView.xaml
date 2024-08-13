@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="ModernDesign.MVVM.View.RadioButtonView"
+﻿<UserControl x:Class="ModernDesign.MVVM.View.csRadioButton"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -13,9 +13,9 @@
     <StackPanel>
         <RadioButton Content="Home"
              Height="50"
-             Foreground="White"
+             Foreground="Pink"
              FontSize="14"
-             Style="{StaticResource MenuButtonTheme}" Checked="RadioButton_Checked"
+             Style="{StaticResource MenuButtonTheme}" 
              IsChecked="True"
              Command="{Binding ChangeHomeViewCommand}"
              
@@ -23,7 +23,7 @@
 
         <RadioButton Content="Discovery"
              Height="50"
-             Foreground="White"
+             Foreground="Pink"
              FontSize="14"
              Style="{StaticResource MenuButtonTheme}"
              Command="{Binding ChangeViewCommand}"
@@ -31,7 +31,7 @@
              />
         <RadioButton Content="Featured"
              Height="50"
-             Foreground="White"
+             Foreground="Pink"
              FontSize="14"
              Style="{StaticResource MenuButtonTheme}"
              />

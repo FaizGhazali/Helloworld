@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ModernDesign.MVVM.ViewModel
 {
-    internal class ProgrammingMenuViewModel
+    internal class csRBModel
     {
     }
 }

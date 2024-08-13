@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ModernDesign.Core;
+using ModernDesign.MVVM.View;
 
 namespace ModernDesign.MVVM.ViewModel
 {
@@ -16,7 +17,12 @@ namespace ModernDesign.MVVM.ViewModel
         public HomeViewModel HomeVm { get; set; }
 
         public DiscoveryViewModel DiscoveryVM { get; set; }
+
+        //Radio
         public PracticeRadioViewModel PracticeRVM { get; set; }
+        public csRBModel csRBVM { get; set; }
+
+
 
         private object _currentView;
         private object _currentRadioView;
@@ -43,6 +49,7 @@ namespace ModernDesign.MVVM.ViewModel
             HomeVm = new HomeViewModel();
             DiscoveryVM = new DiscoveryViewModel();
             PracticeRVM = new PracticeRadioViewModel();
+            csRBVM = new csRBModel();
 
 
             CurrentView = HomeVm;
@@ -58,11 +65,16 @@ namespace ModernDesign.MVVM.ViewModel
                 CurrentView = DiscoveryVM;
             });
             Messenger.Instance.Register<ChangeViewMessage>(OnChangeViewMessage);
+            Messenger.Instance.Register<ChangeRadioMessage>(OnChangeRadioMessage);
 
         }
         private void OnChangeViewMessage(ChangeViewMessage message)
         {
             CurrentView = message.ViewModel;
+        }
+        private void OnChangeRadioMessage(ChangeRadioMessage message)
+        {
+            CurrentRadioView = message.RadioModel;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

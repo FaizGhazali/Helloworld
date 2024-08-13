@@ -4,8 +4,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ModernDesign.MVVM.View"
+             xmlns:viewModel="clr-namespace:ModernDesign.MVVM.ViewModel" xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              mc:Ignorable="d" 
              d:DesignHeight="460" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <viewModel:HomeViewModel/>
+    </UserControl.DataContext>
     <StackPanel>
         <TextBlock Text="Discover"
                    Foreground="White"
@@ -72,7 +76,13 @@
             <Border Width="200"
                     Height="200"
                     CornerRadius="10"
-                    Margin="45,0,0,0">
+                    Margin="45,0,0,0"
+                    IsHitTestVisible="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding BorderClickCommand}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
 
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0,0"

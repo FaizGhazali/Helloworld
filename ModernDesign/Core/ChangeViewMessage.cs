@@ -10,5 +10,9 @@ namespace ModernDesign.Core
     {
         public object ViewModel { get; set; }
     }
+    public class ChangeRadioMessage { 
+        public object RadioModel { get; set; }
+    }
+
 
 }
