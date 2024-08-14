@@ -1,4 +1,5 @@
 ﻿using ModernDesign.Core;
+using ModernDesign.MVVM.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +12,13 @@ namespace ModernDesign.MVVM.ViewModel
     {
         public RelayCommand ChangeViewCommand { get; set; }
         public RelayCommand ChangeHomeViewCommand { get; set; }
+        public RelayCommand ChangeHomeRadioCommand { get; set; }
 
         public PracticeRadioViewModel()
         {
             ChangeViewCommand = new RelayCommand(o => RequestViewChange());
             ChangeHomeViewCommand = new RelayCommand(o => ReqHomeViewChange());
+            ChangeHomeRadioCommand = new RelayCommand(o => ReqHomeRadioViewChange());
         }
 
         public void RequestViewChange()
@@ -26,6 +29,11 @@ namespace ModernDesign.MVVM.ViewModel
         public void ReqHomeViewChange()
         {
             Messenger.Instance.Send(new ChangeViewMessage { ViewModel = new HomeViewModel() });
+        }
+
+        public void ReqHomeRadioViewChange()
+        {
+            Messenger.Instance.Send(new ChangeRadioMessage { RadioModel = new RadioButtonView() });
         }
 
         

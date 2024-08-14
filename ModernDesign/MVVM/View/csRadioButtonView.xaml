@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ModernDesign.MVVM.View"
              xmlns:viewModel="clr-namespace:ModernDesign.MVVM.ViewModel"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="200">
     <UserControl.DataContext>
@@ -15,10 +16,15 @@
         <StackPanel 
             Orientation="Horizontal"
             HorizontalAlignment="Left"
-            Margin="10"
+            Margin="10" Width="182"
             
-            
+             
             >
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseDown">
+                    <i:InvokeCommandAction Command="{Binding ChangeHomeRadioCommand}" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
 
             <!-- Logo Image -->
             <Image Source="/Images/backIcon.png"
