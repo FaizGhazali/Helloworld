@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="Fonts\Poppins-Regular.ttf" />
+    <None Remove="Images\backIcon.png" />
     <None Remove="Images\man.PNG" />
     <None Remove="Images\thread.png" />
   </ItemGroup>
@@ -23,6 +24,7 @@
 
   <ItemGroup>
     <Resource Include="Fonts\Poppins-Regular.ttf" />
+    <Resource Include="Images\backIcon.png" />
     <Resource Include="Images\man.PNG" />
     <Resource Include="Images\thread.png" />
   </ItemGroup>
