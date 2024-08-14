@@ -58,3 +58,7 @@ dkms.conf
 /ModernDesign/.vs
 /ModernDesign/bin
 /ModernDesign/obj
+/.vs
+/ThreadingLearning/obj
+/ThreadingLearning/obj
+/ThreadingLearning/obj
