@@ -9,7 +9,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="200">
     <UserControl.DataContext>
-        <viewModel:PracticeRadioViewModel/>
+        <viewModel:csRBViewModel/>
     </UserControl.DataContext>
     <StackPanel>
 
@@ -45,7 +45,7 @@
             </TextBlock>
         </StackPanel>
 
-        <RadioButton Content="Home"
+        <RadioButton Content="Threading"
              Height="50"
              Foreground="Pink"
              FontSize="14"

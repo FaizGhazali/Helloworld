@@ -20,7 +20,7 @@ namespace ModernDesign.MVVM.ViewModel
 
         //Radio
         public PracticeRadioViewModel PracticeRVM { get; set; }
-        public csRBModel csRBVM { get; set; }
+        public csRBViewModel csRBVM { get; set; }
 
 
 
@@ -49,7 +49,7 @@ namespace ModernDesign.MVVM.ViewModel
             HomeVm = new HomeViewModel();
             DiscoveryVM = new DiscoveryViewModel();
             PracticeRVM = new PracticeRadioViewModel();
-            csRBVM = new csRBModel();
+            csRBVM = new csRBViewModel();
 
 
             CurrentView = HomeVm;
