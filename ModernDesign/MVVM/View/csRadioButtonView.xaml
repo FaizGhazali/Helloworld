@@ -51,7 +51,7 @@
              FontSize="14"
              Style="{StaticResource MenuButtonTheme}" 
              IsChecked="True"
-             Command="{Binding ChangeHomeViewCommand}"
+             Command="{Binding ChangeThreadingViewCommand}"
              
              />
 

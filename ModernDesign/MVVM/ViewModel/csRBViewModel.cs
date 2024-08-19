@@ -11,13 +11,13 @@ namespace ModernDesign.MVVM.ViewModel
     public class csRBViewModel
     {
         public RelayCommand ChangeViewCommand { get; set; }
-        public RelayCommand ChangeHomeViewCommand { get; set; }
+        public RelayCommand ChangeThreadingViewCommand { get; set; }
         public RelayCommand ChangeHomeRadioCommand { get; set; }
 
         public csRBViewModel()
         {
             ChangeViewCommand = new RelayCommand(o => RequestViewChange());
-            ChangeHomeViewCommand = new RelayCommand(o => ReqHomeViewChange());
+            ChangeThreadingViewCommand = new RelayCommand(o => ReqThreadingViewChange());
             ChangeHomeRadioCommand = new RelayCommand(o => ReqHomeRadioViewChange());
         }
 
@@ -26,9 +26,9 @@ namespace ModernDesign.MVVM.ViewModel
             Messenger.Instance.Send(new ChangeViewMessage { ViewModel = new DiscoveryViewModel() });
 
         }
-        public void ReqHomeViewChange()
+        public void ReqThreadingViewChange()
         {
-            Messenger.Instance.Send(new ChangeViewMessage { ViewModel = new HomeViewModel() });
+            Messenger.Instance.Send(new ChangeViewMessage { ViewModel = new ThreadingViewModel() });
         }
 
         public void ReqHomeRadioViewChange()

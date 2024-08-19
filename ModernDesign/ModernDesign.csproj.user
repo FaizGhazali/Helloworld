@@ -19,6 +19,9 @@
     <Compile Update="MVVM\View\RadioButtonView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MVVM\View\ThreadingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
@@ -34,6 +37,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\RadioButtonView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\ThreadingView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Theme\MenuButtonTheme.xaml">
