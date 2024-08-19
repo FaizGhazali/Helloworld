@@ -24,10 +24,30 @@ namespace ModernDesign.MVVM.View
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void StartBtn_C(object sender,EventArgs e)
         {
+            // Retrieve the text from the TextBox
+            string name = textboxName.Text;
 
+            // Check if the Label has existing content
+            if (string.IsNullOrEmpty(labelThreading.Content as string))
+            {
+                // If the Label is empty, just set the new text
+                labelThreading.Content = name;
+            }
+            else
+            {
+                // Otherwise, append the new text with a newline
+                labelThreading.Content += "\n" + name;
+            }
+
+            // Optionally, clear the TextBox after updating the Label
+            textboxName.Clear();
         }
+        private void StopBtn_C(Object sender, EventArgs e)
+        {
+        }
+
+
     }
 }

@@ -9,12 +9,13 @@
              d:DesignHeight="460" d:DesignWidth="800">
     <Grid>
         <Button HorizontalAlignment="Left" Margin="171,387,0,0" VerticalAlignment="Top">
-            <Button x:Name="StartBtn" Content="Start" Click="Button_Click" Height="24" Width="67"/>
+            <Button x:Name="StartBtn" Content="Start" Click="StartBtn_C" Height="24" Width="67"/>
         </Button>
         <Button HorizontalAlignment="Left" Margin="543,387,0,0" VerticalAlignment="Top">
-            <Button x:Name="StopBtn" Content="Stop" Click="Button_Click" Height="24" Width="67"/>
+            <Button x:Name="StopBtn" Content="Stop" Click="StopBtn_C" Height="24" Width="67"/>
         </Button>
-        <TextBox HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="780" Height="340"/>
+        <Label x:Name="labelThreading" Content="Label heheh &#xD;&#xA;huhhu" HorizontalAlignment="Left" Margin="33,17,0,0" VerticalAlignment="Top" Height="299" Width="682"/>
+        <TextBox x:Name="textboxName" HorizontalAlignment="Left" Margin="146,346,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </UserControl>
