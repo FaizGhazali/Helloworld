@@ -14,6 +14,7 @@
         <Button HorizontalAlignment="Left" Margin="543,387,0,0" VerticalAlignment="Top">
             <Button x:Name="StopBtn" Content="Stop" Click="StopBtn_C" Height="24" Width="67"/>
         </Button>
+        
         <Label x:Name="labelThreading" Content="Label heheh &#xD;&#xA;huhhu" HorizontalAlignment="Left" Margin="33,17,0,0" VerticalAlignment="Top" Height="299" Width="682"/>
         <TextBox x:Name="textboxName" HorizontalAlignment="Left" Margin="146,346,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 

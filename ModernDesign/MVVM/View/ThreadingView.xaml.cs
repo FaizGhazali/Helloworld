@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ModernDesign.MVVM.View
 {
@@ -20,34 +10,50 @@ namespace ModernDesign.MVVM.View
     /// </summary>
     public partial class ThreadingView : UserControl
     {
+        private Thread thread1;
+
         public ThreadingView()
         {
             InitializeComponent();
         }
-        private void StartBtn_C(object sender,EventArgs e)
+
+        // This method is called from a separate thread
+        public void CountDown(string name)
+        {
+            for (int i = 10; i >= 0; i--)
+            {
+                // Update the UI safely using Dispatcher
+                Dispatcher.Invoke(() =>
+                {
+                    labelThreading.Content += $"\n{name} : {i} seconds";
+                });
+
+                Thread.Sleep(1000);
+            }
+
+            // Final update when countdown is complete
+            Dispatcher.Invoke(() =>
+            {
+                labelThreading.Content += $"\n{name} is complete!";
+            });
+        }
+
+        private void StartBtn_C(object sender, RoutedEventArgs e)
         {
             // Retrieve the text from the TextBox
             string name = textboxName.Text;
 
-            // Check if the Label has existing content
-            if (string.IsNullOrEmpty(labelThreading.Content as string))
-            {
-                // If the Label is empty, just set the new text
-                labelThreading.Content = name;
-            }
-            else
-            {
-                // Otherwise, append the new text with a newline
-                labelThreading.Content += "\n" + name;
-            }
+            // Start the countdown in a new thread
+            thread1 = new Thread(() => CountDown(name));
+            thread1.Start();
 
             // Optionally, clear the TextBox after updating the Label
             textboxName.Clear();
         }
-        private void StopBtn_C(Object sender, EventArgs e)
+
+        private void StopBtn_C(object sender, RoutedEventArgs e)
         {
+            // Add logic to stop the thread if needed
         }
-
-
     }
 }
